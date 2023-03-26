@@ -13,7 +13,7 @@ const Nav = () => {
                 <input placeholder='보기 추가'/>
             </div>
             <div>
-                <FontAwesomeIcon icon={faSearch}/>
+                <FontAwesomeIcon id='search-icon' icon={faSearch}/>
                 <input placeholder='검색'/>
             </div>
             

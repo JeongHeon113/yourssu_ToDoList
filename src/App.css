@@ -4,7 +4,7 @@
   text-align: center;
   margin: auto;
   margin-top: 100px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(207, 207, 207);
   font-weight: 700;
   padding: 10px;
 }
@@ -21,6 +21,9 @@
   display: flex;
   align-items: center;
 }
+.list-input button{
+  color: gray;
+}
 .list-nav input{
   outline: none;
   border: none;
@@ -30,13 +33,15 @@ button{
   background-color: transparent;
 }
 .main_area{
-  border-top: 1px solid gray;
+  border-top: 1px solid rgb(207, 207, 207);
   padding-top: 10px;
 }
 .list_state{
   display: flex;
-  justify-content: space-around;
   margin-bottom: 20px;
+}
+.list_state div{
+  margin-right: 10px;
 }
 #list-add{
   position: relative;
@@ -94,7 +99,8 @@ button{
   align-items: center;
   height: 40px;
   padding: 10px;
-  
+  font-weight: 700;
+  box-shadow: 0px 0.8px  gray;
 }
 #done-list{
   text-decoration: line-through;
@@ -108,4 +114,7 @@ button{
 }
 #doing_title::before{
   background-color: rgb(188, 235, 118);
+}
+#search-icon{
+  color: gray;
 }
